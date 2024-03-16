@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.img {
+    @apply object-cover w-full h-full;
+}
+
+.scale-animation {
+    @apply transition-all duration-700 ease-in-out hover:scale-125;
+}
