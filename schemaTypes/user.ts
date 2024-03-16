@@ -2,7 +2,7 @@ import { defineField } from "sanity";
 
 const user = {
     name: 'user',
-    title: 'User',
+    title: 'user',
     type: 'document',
     fields: [
         defineField({
@@ -29,6 +29,22 @@ const user = {
             type: 'url',
         }),
         defineField({
+            name: 'email',
+            title: 'Email',
+            type: 'string',
+        }),
+        defineField({
+            name: 'emailVerified',
+            type: 'datetime',
+            hidden: true,
+        }),
+        defineField({
+            name: 'username',
+            type: 'string',
+            hidden: true,
+        }),
+
+        defineField({
             name: 'password',            
             type: 'string',
             hidden: true,
@@ -37,6 +53,7 @@ const user = {
             name: 'about',
             title: 'About',
             type: 'text',
+            description: 'A short bio of the user',
         })
     ],
 };
