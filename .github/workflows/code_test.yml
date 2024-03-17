@@ -54,4 +54,4 @@ jobs:
                     chmod 600 ~/.ssh/id_rsa
                     scp -r hotel-management black@192.168.0.114:/opt/hotel-management/.next
                     ssh black@192.168.0.114 "cd /opt/hotel-management && npm install --production && pm2 restart all"
-                ACTIONS_STEP_DEBUG: true
+                
