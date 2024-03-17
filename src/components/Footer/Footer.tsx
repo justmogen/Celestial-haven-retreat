@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-secondary h-5 md:h-[70px] mt-16 w-full bottom-0 left-0"></div>
-        </footer>
+        </foter>
     )
 }il
 
