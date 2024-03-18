@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start",
+        "start": "next start -H 192.168.0.109",
         "lint": "next lint",
         "test": "jest"
     },
@@ -19,7 +19,8 @@
         "react-dom": "^18",
         "react-hot-toast": "^2.4.1",
         "react-icons": "^5.0.1",
-        "sanity": "^3.33.0"
+        "sanity": "^3.33.0",
+        "sharp": "^0.33.2"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
